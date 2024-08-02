@@ -1,0 +1,13 @@
+.cont--desc-featured-projects {
+    margin-left: 16px;
+    margin-top: 0.5rem;
+    background: linear-gradient(175deg, #120A30, #0A1730);
+    border-radius: 4px;
+    border: 1px solid #0A1730;
+}
+
+.desc-featured-projects {
+    color: #D6D6FF;
+    margin: 0.5rem 0.75rem;
+    font-size: 1rem;
+}

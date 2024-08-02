@@ -1,0 +1,113 @@
+.cont--featured-projects {
+    height: 1400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.cont--featured-projects-column {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1px 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    opacity: 80%;
+    /* Spans across the first two columns */
+}
+
+.item2 {
+    grid-column: 3 / 7;
+    grid-row: 1 / 2;
+    /* Starts overlapping from the second column */
+}
+
+
+.line {
+    height: 100%;
+    background-color: #A4A2FF;
+}
+
+.span-topline {
+    color: #A4A2FF;
+    display: block;
+    margin-left: 16px;
+}
+
+.cont--featured-project-1 {
+    grid-row: 1 / 2;
+}
+
+.cont--featured-project {
+    grid-column: 2 / 3;
+}
+
+.cont--two-thirds-width {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont--featured-projects-title {
+    display: flex;
+    align-items: center;
+}
+
+.dash {
+    position: relative;
+    height: 2rem;
+    width: 10px;
+    margin-right: 6px;
+}
+
+.dash::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    background-color: #A4A2FF;
+}
+
+.cont--featured-projects-links {
+    margin-left: 16px;
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .cont--featured-projects-column {
+        grid-column: 1 / 7;
+        grid-row: 1 / 2;
+        display: grid;
+        grid-template-columns: 1px 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        opacity: 80%;
+    }
+
+    .cont--two-thirds-width {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    .cont--featured-projects-column {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+        display: grid;
+        grid-template-columns: 1px 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        opacity: 80%;
+    }
+
+    .cont--two-thirds-width {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+}

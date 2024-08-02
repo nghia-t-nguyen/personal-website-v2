@@ -1,0 +1,19 @@
+.cont--tags {
+    margin-left: 16px;
+    margin-top: 0.75rem;
+}
+
+.cont--tag {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background: linear-gradient(175deg, #ED7EFF, #C67EFF);
+    margin-right: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    color: #120A30;
+    border: 1px solid #C67EFF;
+    font-size: 14px;
+}
