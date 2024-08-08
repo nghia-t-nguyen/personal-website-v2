@@ -1,7 +1,7 @@
 .cont--desc-featured-projects {
     margin-left: 16px;
     margin-top: 0.5rem;
-    background: linear-gradient(175deg, #120A30, #0A1730);
+    background: linear-gradient(175deg, rgba(18, 10, 48, 1), rgba(10, 23, 48, 1));
     border-radius: 4px;
     border: 1px solid #0A1730;
 }

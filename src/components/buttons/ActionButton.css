@@ -1,0 +1,18 @@
+.btn--action-button {
+    border: 1.5px solid #98E588;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    box-shadow: none;
+    background: linear-gradient(175deg, #88E5B8, #98E588);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn--action-button:hover {
+    box-shadow: 0px 0px 10px #98E588;
+}
+
+
+.span--action-button-text {
+    color: black;
+    font-size: 1rem;
+}
