@@ -21,7 +21,7 @@ export default function OtherProjects() {
     return (
         <div className='cont--other-projects'>
             <div className={`cont--other-projects-cards ${isHidden ? 'cont--other-projects-cards-hidden' : ''}`}>
-                {data.projectCards.map(x => <ProjectCard key={x.title} subtitle={x.subtitle} title={x.title} tags={x.tags} description={x.description} />)}
+                {data.projectCards.map(x => <ProjectCard key={x.title} subtitle={x.subtitle} title={x.title} tags={x.tags} description={x.description} projectURL={x.projectURL} learnMoreURL={x.learnMoreURL} />)}
             </div>
             <div className={`${isHidden ? '' : 'cont--action-button-extra-margin'}`}>
                 <ActionButton handleClick={handleButtonClick} text={`${isHidden ? 'View more projects' : 'View less projects'}`} />
@@ -32,6 +32,7 @@ export default function OtherProjects() {
 
 function ProjectCard(props) {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.65 });
+    const justifyButtonStyle = props.projectURL && props.learnMoreURL ? 'space-between' : (props.projectURL ? 'flex-start' : 'flex-end')
 
     return (
         <div className={`cont--project-card ${inView ? 'opaque-card' : ''}`}>
@@ -48,11 +49,14 @@ function ProjectCard(props) {
                             <SmallerTags tags={props.tags} />
                             <p className='p--description'>{props.description}</p>
                         </div>
-                        <div className='cont--project-card-buttons'>
-                            <ExternalLink />
-                            <div className='wrapr--learn-more'>
-                                <SmallerNavButton text='Learn more' />
-                            </div>
+                        <div className='cont--project-card-buttons' style={{ justifyContent: justifyButtonStyle }}>
+                            {props.projectURL && <ExternalLink url={props.projectURL} />}
+                            {props.learnMoreURL &&
+                                <div className='wrapr--learn-more'>
+                                    <SmallerNavButton text='Learn more' />
+                                </div>
+                            }
+
                         </div>
 
                     </div>

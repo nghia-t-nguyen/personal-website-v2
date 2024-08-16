@@ -5,6 +5,8 @@ import ExternalLink from './buttons/ExternalLink'
 import NavButton from './buttons/NavButton'
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
+import gasTrackerScreenshot from '../assets/images/gas-tracker-screenshot.png'
+import aForAScreenshot from '../assets/images/a-for-aesthetic-screenshot.png'
 
 export default function FeaturedProjects() {
     const [lineHeight, setLineHeight] = useState(0);
@@ -43,14 +45,17 @@ export default function FeaturedProjects() {
             <div className='cont--featured-projects-column'>
                 <div className='line' style={{ height: `${lineHeight}px` }}>
                 </div>
-                <div ref={ref1} className={`cont--featured-project-1 cont--featured-project ${inView1 ? 'visible' : 'hidden'}`}>
+                <div ref={ref1} className={`cont--featured-project-1 cont--featured-project ${inView1 ? 'visible' : 'hidden'}`} >
                     <div className='cont--two-thirds-width'>
                         <span className='span-topline'>featured project #1</span>
                         <div className='cont--featured-projects-title'>
                             <div className='dash'></div>
                             <h2 class>Gas Tracker</h2>
                         </div>
-                        <Tags tags={['ReactJS', 'HTML', 'CSS', 'JS', 'Firebase', 'Cloud Firestore', 'AWS', 'Node.js', 'BitQuery', 'Figma']} />
+                        <div className='cont--featured-project-tags'>
+                            <Tags tags={['ReactJS', 'HTML', 'CSS', 'JS', 'Firebase', 'Cloud Firestore', 'AWS', 'Node.js', 'BitQuery']} />
+                        </div>
+
                     </div>
                     <Description text='Gas Tracker is a web application that helps users track gas, a.k.a. the computational work required to perform transactions on a blockchain network.' />
                     <div className='cont--two-thirds-width'>
@@ -68,7 +73,10 @@ export default function FeaturedProjects() {
                             <div className='dash'></div>
                             <h2 class>A for Aesthetic</h2>
                         </div>
-                        <Tags tags={['Shopify', 'Liquid Templating', 'HTML', 'CSS', 'Figma']} />
+                        <div className='cont--featured-project-tags'>
+                            <Tags tags={['Shopify', 'Liquid Templating', 'HTML', 'CSS', 'Figma']} />
+                        </div>
+
                     </div>
                     <Description text='Asian-founded, aesthetic, and authentic. A for Aesthetic is a small business that focuses on curating aesthetics using original artwork.' />
                     <div className='cont--two-thirds-width'>
@@ -86,7 +94,10 @@ export default function FeaturedProjects() {
                             <div className='dash'></div>
                             <h2 class>Gas Tracker</h2>
                         </div>
-                        <Tags tags={['ReactJS', 'HTML', 'CSS', 'JS', 'Firebase', 'Cloud Firestore', 'AWS', 'Node.js', 'BitQuery']} />
+                        <div className='cont--featured-project-tags'>
+                            <Tags tags={['ReactJS', 'HTML', 'CSS', 'JS', 'Firebase', 'Cloud Firestore', 'AWS', 'Node.js', 'BitQuery']} />
+                        </div>
+
                     </div>
                     <Description text='Gas Tracker is a web application that helps users track gas, a.k.a. the computational work required to perform transactions on a blockchain network.' />
                     <div className='cont--two-thirds-width'>
@@ -100,13 +111,22 @@ export default function FeaturedProjects() {
             </div>
             <div className='cont--image-column'>
                 <div className={`cont--image ${inView1 ? 'visible' : 'hidden-left'}`}>
-                    <div className='embed embed--image-1'></div>
+                    <div className='embed embed--image-1' >
+                        <div className='filter--embed-image'></div>
+                        <div className='cont--embed-image' style={{ backgroundImage: `url(${gasTrackerScreenshot})` }}></div>
+                    </div>
                 </div>
                 <div className={`cont--image ${inView2 ? 'visible' : 'hidden-left'}`}>
-                    <div className='embed embed--image-2'></div>
+                    <div className='embed embed--image-2'>
+                        <div className='filter--embed-image'></div>
+                        <div className='cont--embed-image' style={{ backgroundImage: `url(${aForAScreenshot})` }}></div>
+                    </div>
                 </div>
                 <div className={`cont--image ${inView3 ? 'visible' : 'hidden-left'}`}>
-                    <div className='embed embed--image-3'></div>
+                    <div className='embed embed--image-3'>
+                        <div className='filter--embed-image'></div>
+                        <div className='cont--embed-image' style={{ backgroundImage: `url(${gasTrackerScreenshot})` }}></div>
+                    </div>
                 </div>
             </div>
         </div>

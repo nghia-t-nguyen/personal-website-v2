@@ -1,0 +1,19 @@
+.max-width {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.scroll-testing {
+    height: 80rem;
+    width: 10rem;
+}
+
+.cont--heading {
+    position: relative;
+    z-index: 4;
+}
+
+.spacer {
+    height: 8rem;
+    width: 100%;
+}

@@ -1,5 +1,5 @@
 body {
-  background-color: #04040D;
+  background-color: #050412;
   margin: 1rem;
 }
 
@@ -34,6 +34,7 @@ h4 {
 
 span,
 p {
+  color: #D6D6FF;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;

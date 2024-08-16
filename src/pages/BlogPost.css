@@ -1,0 +1,38 @@
+.upper-line {
+    margin-top: 0.25rem;
+    border-top: 1px solid #464558;
+}
+
+.max-blog-width {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.title--blog {
+    line-height: 3.4rem;
+}
+
+.cont--blog-post>p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.cont--blog-post>h3 {
+    color: #A4A2FF;
+}
+
+.cont--blog-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.full-width-img {
+    width: 100%;
+}
+
+.span--image-caption {
+    color: #A4A2FF;
+    font-size: 0.8rem;
+}
