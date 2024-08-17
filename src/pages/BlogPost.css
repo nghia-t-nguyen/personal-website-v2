@@ -21,6 +21,10 @@
     color: #A4A2FF;
 }
 
+.cont--blog-post a {
+    color: #98E588;
+}
+
 .cont--blog-img {
     display: flex;
     flex-direction: column;
