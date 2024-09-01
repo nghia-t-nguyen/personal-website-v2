@@ -15,11 +15,10 @@ export default function GasTrackerBlog() {
             <Tags tags={['ReactJS', 'HTML', 'CSS', 'JS', 'Firebase', 'Cloud Firestore', 'AWS', 'Node.js', 'BitQuery']} />
             <h2 className='upper-line'>The Problem</h2>
             <p>
-                Gas is the fee required to successfully conduct a transaction or execute a contract on cryptocurrencies.
-            </p>
-            <p>
-                There aren't many websites that display this type of data. Of the websites that do display this data there are two problems.  One: these fee values are never displayed all on the same page. Websites that track gas tend to only focus on a singular cryptocurrency.
-                Consequently, I sought out to resolve these issues.
+                Gas is the fee required to successfully conduct a transaction or execute a contract on a cryptocurrency network.
+                While many websites display gas values, they often focus on a single cryptocurrency, leaving some chains without a dedicated resource.
+                Additionally, these sites typically don't present exchange values in one place, making it difficult for users to compare prices and make informed decisions.
+                My application, <em>Gas Tracker</em>, addresses these issues by consolidating gas values for multiple cryptocurrencies in one location, providing users a comprehensive and easy-to-use tool to stay at the top of their crypto game.
             </p>
             <h2>The Design</h2>
             <h3>Visual Identity</h3>
@@ -104,6 +103,7 @@ export default function GasTrackerBlog() {
             </div>
             <h3>Front End</h3>
             <p><strong>React:</strong> I built the front-end application using React's create-react-app.
+                To make the graphs, I used ChartJS.
                 You can <a href='https://gas-trkr.netlify.app/dashboard' target="_blank" rel="noopener noreferrer">view the dashboard</a>.
             </p>
             <p><strong>Firebase Authentication:</strong> To allow for the creation of accounts and authentication, I integrated Firebase Authentication into the front end application.

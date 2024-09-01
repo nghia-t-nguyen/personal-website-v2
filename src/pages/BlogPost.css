@@ -1,6 +1,7 @@
 .upper-line {
     margin-top: 0.25rem;
-    border-top: 1px solid #464558;
+    border-top: 2px solid #A4A2FF;
+    padding-top: 1rem;
 }
 
 .max-blog-width {
@@ -15,6 +16,10 @@
 .cont--blog-post>p {
     margin: 10px 0;
     font-size: 18px;
+}
+
+.cont--blog-post>h2 {
+    border-bottom: 1px solid #464558;
 }
 
 .cont--blog-post>h3 {
@@ -36,7 +41,27 @@
     width: 100%;
 }
 
+.medium-width-img {
+    width: 75%;
+}
+
+.small-width-img {
+    width: 50%;
+}
+
 .span--image-caption {
+    margin-top: 2px;
     color: #A4A2FF;
     font-size: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .medium-width-img {
+        width: 100%;
+    }
+
+    .small-width-img {
+        width: 75%;
+    }
+
 }

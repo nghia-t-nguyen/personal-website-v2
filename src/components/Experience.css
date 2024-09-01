@@ -1,0 +1,174 @@
+@media screen and (max-width: 599px) {
+    .wrapper--cont--experience {
+        height: 40rem;
+        margin-bottom: 10rem;
+    }
+
+    .cont--experience-text h2 {
+        display: none;
+    }
+
+    .cont--tabs {
+        display: flex;
+        width: 100%;
+        border-bottom: 2px solid #10244B;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .cont--tab {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        background-color: #081329;
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 0;
+        border-top: 2px solid #10244B;
+        border-left: 2px solid #10244B;
+        border-right: 2px solid #10244B;
+    }
+
+    .fire-crystal-hidden,
+    .fire-crystal-visible {
+        display: none;
+    }
+
+    .cont--tab.focused-tab {
+        background-color: #10244B;
+    }
+
+    .cont--experience-text {
+        height: 30rem;
+        overflow-y: auto;
+        border-bottom: 2px solid #10244B;
+    }
+
+    .cont--experience-text::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .cont--experience-text::-webkit-scrollbar-thumb {
+        border-radius: 12px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: #98E588;
+        border: 1px solid #000;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .cont--experience-text::-webkit-scrollbar-thumb:hover {
+        background-color: #d4ffcb;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .wrapper--cont--experience {
+        height: 55rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .wrapper--cont--experience {
+        height: 48rem;
+        margin-bottom: 10rem;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+
+    .cont--experience {
+        display: grid;
+        margin-top: 1rem;
+        width: 100%;
+        grid-template-columns: 1fr 3fr;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .cont--experience-text {
+        padding: 0.2rem 1rem;
+    }
+
+    .cont--tabs {
+        border-right: 1px solid #10244B;
+    }
+
+    .cont--tab {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+    }
+
+    .cont--tab>span {
+        margin-left: 0.5rem;
+    }
+}
+
+.visible {
+    opacity: 1;
+}
+
+
+.cont--tab.focused-tab {
+    cursor: default;
+}
+
+
+.cont--tab>span {
+    color: #98E588;
+    user-select: none;
+}
+
+.cont--tab:hover>.fire-crystal-hidden {
+    opacity: 1;
+    filter: brightness(50%);
+}
+
+.fire-crystal-hidden {
+    opacity: 0;
+    transform: translateY(2px);
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+}
+
+
+.fire-crystal-visible {
+    opacity: 1;
+    transform: translateY(2px);
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+}
+
+.focused-tab>span {
+    color: #A4A2FF !important;
+}
+
+.cont--experience-text p {
+    margin: 0;
+    line-height: 1.4rem;
+}
+
+.cont--experience strong {
+    color: #A4A2FF;
+}
+
+.cont--experience-text h2 {
+    line-height: 1.8rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #10244B;
+    color: #A4A2FF;
+}
+
+.cont--experience-text h3 {
+    color: #ED7EFF;
+}
+
+.indent {
+    padding-left: 0.5rem;
+    border-left: 1px solid #A4A2FF;
+}

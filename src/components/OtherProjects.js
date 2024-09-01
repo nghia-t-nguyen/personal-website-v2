@@ -6,7 +6,6 @@ import tarotCardBack from '../assets/images/tarot-card-back.png'
 import { data } from '../data'
 import SmallerTags from './SmallerTags'
 import ExternalLink from './buttons/ExternalLink'
-import NavButton from './buttons/NavButton'
 import SmallerNavButton from './buttons/SmallerNavButton'
 
 export default function OtherProjects() {

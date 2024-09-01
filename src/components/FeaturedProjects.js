@@ -61,9 +61,10 @@ export default function FeaturedProjects() {
                     <div className='cont--two-thirds-width'>
                         <div className='cont--featured-projects-links'>
                             <ExternalLink url='https://gas-trkr.netlify.app/' />
-                            <NavButton text='Learn more' />
+                            <NavButton text='Learn more' url='/gas-tracker' />
                         </div>
                     </div>
+                    <div className='smaller-screenshot' style={{ backgroundImage: `url(${gasTrackerScreenshot})` }}></div>
                 </div>
 
                 <div ref={ref2} className={`cont--featured-project-2 cont--featured-project ${inView2 ? 'visible' : 'hidden'}`}>
@@ -82,9 +83,10 @@ export default function FeaturedProjects() {
                     <div className='cont--two-thirds-width'>
                         <div className='cont--featured-projects-links'>
                             <ExternalLink url='https://aforaesthetic.com/' />
-                            <NavButton text='Learn more' />
+                            <NavButton text='Learn more' url='/a-for-aesthetic' />
                         </div>
                     </div>
+                    <div className='smaller-screenshot' style={{ backgroundImage: `url(${aForAScreenshot})` }}></div>
                 </div>
 
                 <div ref={ref3} className={`cont--featured-project-3 cont--featured-project ${inView3 ? 'visible' : 'hidden'}`}>
@@ -106,6 +108,7 @@ export default function FeaturedProjects() {
                             <NavButton text='Learn more' />
                         </div>
                     </div>
+                    <div className='smaller-screenshot' style={{ backgroundImage: `url(${gasTrackerScreenshot})` }}></div>
                 </div>
 
             </div>

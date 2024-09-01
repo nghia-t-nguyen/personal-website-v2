@@ -4,6 +4,7 @@
     border-radius: 20px;
     box-shadow: none;
     background: linear-gradient(175deg, #88E5B8, #98E588);
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 

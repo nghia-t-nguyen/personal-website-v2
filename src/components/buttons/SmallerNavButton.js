@@ -2,10 +2,10 @@ import './SmallerNavButton.css'
 
 export default function SmallerNavButton(props) {
     return (
-        <div className="cont--smaller-nav-button">
-            <a className="a--smaller-nav-button" href={props.url}>
+        <a className="a--smaller-nav-button" href={props.url}>
+            <div className="cont--smaller-nav-button">
                 {props.text}
-            </a>
-        </div>
+            </div>
+        </a>
     )
 }
