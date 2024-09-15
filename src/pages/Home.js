@@ -3,23 +3,36 @@ import FeaturedProjects from '../components/FeaturedProjects';
 import OtherProjects from '../components/OtherProjects';
 import AboutMe from '../components/AboutMe'
 import Experience from '../components/Experience';
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
     return (
         <div className="Home">
-            <div className='scroll-testing'></div>
+            <Navbar />
+            <section id='hero'>
+                <Hero />
+            </section>
+
             <div className='max-width'>
-                <h1>
-                    About Me
-                </h1>
-                <AboutMe />
-                <h1>Experience</h1>
-                <Experience />
-                <div className='cont--heading'><h1>Featured Projects</h1></div>
-                <FeaturedProjects />
-                <div className='spacer'></div>
-                <h1>Other Projects</h1>
-                <OtherProjects />
+                <section id='about'>
+                    <h1>
+                        About Me
+                    </h1>
+                    <AboutMe />
+                </section>
+                <section id='experience'>
+                    <h1>Experience</h1>
+                    <Experience />
+                </section>
+                <section id='projects'>
+                    <div className='cont--heading'><h1>Featured Projects</h1></div> {/*container allows to move it up z-index*/}
+                    <FeaturedProjects />
+                    <div className='spacer'></div>
+                    <h1>Other Projects</h1>
+                    <OtherProjects />
+                </section>
+
             </div>
             <div className='scroll-testing'></div>
         </div>

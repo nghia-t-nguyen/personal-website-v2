@@ -1,0 +1,117 @@
+.cont--hero {
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont--hero-inner {
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.cont--hero h1,
+.cont--hero h3,
+.cont--hero span {
+    text-shadow:
+        -2px -2px 0 black,
+        /* Top left */
+        2px -2px 0 black,
+        /* Top right */
+        -2px 2px 0 black,
+        /* Bottom left */
+        2px 2px 0 black;
+}
+
+.h3--creative {
+    margin-left: 3px;
+    margin-top: 1rem;
+    font-family: "Lato", sans-serif;
+}
+
+.h3--welcome {
+    margin-left: 3px;
+    font-family: "Lato", sans-serif;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.h1--hero {
+    font-family: "Lato", sans-serif;
+    line-height: 5rem;
+    font-size: 5rem;
+}
+
+.h1--hero span {
+    line-height: 5rem;
+    font-size: 5rem;
+}
+
+.mark--hero {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    color: #A4A2FF;
+
+}
+
+.cont--hero-inner * {
+    user-select: none;
+}
+
+.fade-in--1,
+.fade-in--2,
+.fade-in--3,
+.fade-in--4,
+.fade-in--5,
+.fade-in--6,
+.fade-in--7 {
+    opacity: 0;
+}
+
+.fade-in--1 {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+
+.fade-in--2 {
+    animation: fadeIn 0.8s ease-in forwards 0.75s;
+}
+
+.fade-in--3 {
+    animation: fadeIn 0.8s ease-in forwards 1.5s;
+}
+
+.fade-in--4 {
+    animation: fadeIn 0.8s ease-in forwards 2.75s;
+}
+
+.fade-in--5 {
+    animation: fadeIn 0.8s ease-in forwards 3s;
+}
+
+.fade-in--6 {
+    animation: fadeIn 0.8s ease-in forwards 3.75s;
+}
+
+.fade-in--7 {
+    animation: fadeIn 0.8s ease-in forwards 5.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* Start with opacity 0 */
+    }
+
+    to {
+        opacity: 1;
+        /* End with opacity 1 */
+    }
+}

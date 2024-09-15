@@ -1,6 +1,10 @@
 body {
   background-color: #050412;
-  margin: 1rem;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1,
