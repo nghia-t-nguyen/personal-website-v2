@@ -44,10 +44,20 @@
     text-align: right;
 }
 
-.h1--hero {
-    font-family: "Lato", sans-serif;
-    line-height: 5rem;
-    font-size: 5rem;
+@media screen and (min-width: 700px) {
+    .h1--hero {
+        font-family: "Lato", sans-serif;
+        line-height: 5rem;
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .h1--hero {
+        font-family: "Lato", sans-serif;
+        line-height: 15vw;
+        font-size: 15vw;
+    }
 }
 
 .h1--hero span {
@@ -77,32 +87,21 @@
 }
 
 .fade-in--1 {
-    animation: fadeIn 0.8s ease-in forwards;
+    animation: fadeIn 0.8s ease-in forwards 4.25s;
 }
 
 .fade-in--2 {
-    animation: fadeIn 0.8s ease-in forwards 0.75s;
+    animation: fadeIn 0.8s ease-in forwards 5s;
 }
 
 .fade-in--3 {
-    animation: fadeIn 0.8s ease-in forwards 1.5s;
+    animation: fadeIn 0.8s ease-in forwards 5.75s;
 }
 
 .fade-in--4 {
-    animation: fadeIn 0.8s ease-in forwards 2.75s;
+    animation: fadeIn 0.8s ease-in forwards 7.5s;
 }
 
-.fade-in--5 {
-    animation: fadeIn 0.8s ease-in forwards 3s;
-}
-
-.fade-in--6 {
-    animation: fadeIn 0.8s ease-in forwards 3.75s;
-}
-
-.fade-in--7 {
-    animation: fadeIn 0.8s ease-in forwards 5.5s;
-}
 
 @keyframes fadeIn {
     from {

@@ -3,6 +3,45 @@
     max-width: 1000px;
 }
 
+.loading {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader-container span {
+    margin-top: 1rem;
+}
+
+.fade-out {
+    opacity: 1;
+    /* Start with opacity 0 */
+    transition: opacity 1s ease-in-out;
+    /* Apply transition effect */
+}
+
+.fade-out.active {
+    opacity: 0;
+}
+
+.fade-out.not-visible {
+    display: none;
+}
+
+
 .scroll-testing {
     height: 80rem;
     width: 10rem;
@@ -24,4 +63,8 @@ section {
 
 #hero {
     padding-top: 0 !important;
+}
+
+#contact {
+    margin-bottom: 2rem;
 }

@@ -2,6 +2,7 @@ import './AboutMe.css'
 import { useInView } from 'react-intersection-observer';
 import crystalOrb from '../assets/icons/crystal-orb.png'
 import tarotCardBack from '../assets/images/tarot-card-back.png'
+import photoOfMe from '../assets/images/photoOfMe.png'
 
 export default function AboutMe() {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.65 });
@@ -57,9 +58,7 @@ function FaceCard(props) {
                 </div>
 
                 <div className='cont-inner--face-card-front'>
-                    <div className='cont-inner-cont--face-card-front'>
-
-                    </div>
+                    <img src={photoOfMe} height='100%' width='100%' />
                 </div>
             </div>
         </div >
