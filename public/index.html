@@ -36,6 +36,29 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
   <title>Portfolio</title>
+  <style>
+    @supports (animation-timeline: view()) {
+      .cont--image-column {
+        transform: translateY(-220px);
+        animation: parallax linear;
+        animation-timeline: view();
+      }
+
+      @keyframes parallax {
+        to {
+          transform: translateY(220px);
+        }
+      }
+
+      .embed--image-1 {
+        margin-top: 9rem !important;
+      }
+
+      .embed--image-3 {
+        margin-top: 0 !important;
+      }
+    }
+  </style>
 </head>
 
 <body>

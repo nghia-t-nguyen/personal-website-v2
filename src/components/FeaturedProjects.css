@@ -131,8 +131,9 @@
     opacity: 0;
 }
 
-
-@supports (animation-timeline: view()) {
+/* See index.html
+*/
+/* @supports (animation-timeline: view()) {
     .cont--image-column {
         transform: translateY(-220px);
         animation: parallax linear;
@@ -152,7 +153,7 @@
     .embed--image-3 {
         margin-top: 0 !important;
     }
-}
+} */
 
 
 
