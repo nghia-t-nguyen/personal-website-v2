@@ -171,7 +171,9 @@
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+
+/* @media screen and (min-width: 200px) and (max-width: 480px) { */
+@media screen and (max-width: 480px) {
     .cont--other-projects-cards {
         max-width: 280px;
         width: 100%;
@@ -196,7 +198,7 @@
     }
 }
 
-@media screen and (max-width: 200px) {
+/* @media screen and (max-width: 200px) {
     .cont--other-projects-cards {
         width: 100%;
         display: grid;
@@ -218,4 +220,4 @@
     .cont-inner--project-card-front {
         border-radius: 0.8rem;
     }
-}
+} */

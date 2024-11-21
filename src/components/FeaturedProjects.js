@@ -109,7 +109,7 @@ export default function FeaturedProjects() {
                             <NavButton text='Learn more' url='/git-time-travel' />
                         </div>
                     </div>
-                    <div className='smaller-screenshot' style={{ backgroundImage: `url(${gasTrackerScreenshot})` }}></div>
+                    <div className='smaller-screenshot' style={{ backgroundImage: `url(${gitTimeTravelScreenshot})` }}></div>
                 </div>
 
             </div>
