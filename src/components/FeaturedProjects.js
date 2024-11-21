@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import gasTrackerScreenshot from '../assets/images/gas-tracker-screenshot.png'
 import aForAScreenshot from '../assets/images/a-for-aesthetic-screenshot.png'
+import gitTimeTravelScreenshot from '../assets/images/GitTTBlog/git-tt-screenshot-featured.png'
 
 export default function FeaturedProjects() {
     const [lineHeight, setLineHeight] = useState(0);
@@ -94,18 +95,18 @@ export default function FeaturedProjects() {
                         <span className='span-topline'>featured project #3</span>
                         <div className='cont--featured-projects-title'>
                             <div className='dash'></div>
-                            <h2 class>Gas Tracker</h2>
+                            <h2 class>Git Time Travel Game</h2>
                         </div>
                         <div className='cont--featured-project-tags'>
-                            <Tags tags={['ReactJS', 'HTML', 'CSS', 'JS', 'Firebase', 'Cloud Firestore', 'AWS', 'Node.js', 'BitQuery']} />
+                            <Tags tags={['Procreate', 'C#', 'Unity']} />
                         </div>
 
                     </div>
-                    <Description text='Gas Tracker is a web application that helps users track gas, a.k.a. the computational work required to perform transactions on a blockchain network.' />
+                    <Description text="Learning Git is a rite of passage for emerging developers. This game's proof-of-concept aims to teach developers how to use Git with an analogy to branching timelines." />
                     <div className='cont--two-thirds-width'>
                         <div className='cont--featured-projects-links'>
-                            <ExternalLink url='https://gas-trkr.netlify.app/' />
-                            <NavButton text='Learn more' />
+                            <ExternalLink url='https://github.com/nghia-t-nguyen/git-time-travel-game-poc' />
+                            <NavButton text='Learn more' url='/git-time-travel' />
                         </div>
                     </div>
                     <div className='smaller-screenshot' style={{ backgroundImage: `url(${gasTrackerScreenshot})` }}></div>
@@ -128,7 +129,7 @@ export default function FeaturedProjects() {
                 <div className={`cont--image ${inView3 ? 'visible' : 'hidden-left'}`}>
                     <div className='embed embed--image-3'>
                         <div className='filter--embed-image'></div>
-                        <div className='cont--embed-image' style={{ backgroundImage: `url(${gasTrackerScreenshot})` }}></div>
+                        <div className='cont--embed-image' style={{ backgroundImage: `url(${gitTimeTravelScreenshot})` }}></div>
                     </div>
                 </div>
             </div>

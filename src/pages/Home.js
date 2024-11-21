@@ -67,9 +67,6 @@ export default function Home() {
 
             <div className='max-width'>
                 <section ref={ref1} id='about'>
-                    <h1>
-                        About Me
-                    </h1>
                     <AboutMe />
                 </section>
                 <section ref={ref2} id='experience'>

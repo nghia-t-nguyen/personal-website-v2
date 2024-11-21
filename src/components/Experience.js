@@ -39,15 +39,15 @@ export default function Experience() {
                             <h2>
                                 Software Development
                             </h2>
-                            <h3>Front-end Developer @ A for Aesthetic</h3>
+                            <h3>PT Front-end Developer @ A for Aesthetic</h3>
                             <p>
                                 As a software developer, I get to make magic.
                                 My most recent software development experience is working part time as a front-end developer and cofounder for ✨A for Aesthetic✨, a small, creative, family-owned business:<br /><br />
                                 <strong>Jan 2024 - present (Columbia, SC)</strong>
                             </p>
                             <p className='indent'>
-                                <strong>Curating</strong> developer relations by encouraging developers to build through Twilio's blog and products by creating educational technical content. <br />
-                                <strong>Crafted</strong> 7 applications using Twilio APIs and products and wrote 7 corresponding technical tutorials.<br />
+                                <strong>Curating</strong> visually engaging frontend interfaces that align with A for Aesthetic's brand vision by translating dynamic and evolving aesthetic trends into user-friendly designs. <br />
+                                <strong>Crafting</strong> immersive, narrative-driven user experiences by writing character narratives, and developing concept art and designs.<br />
 
                             </p>
                             <p><br /></p>

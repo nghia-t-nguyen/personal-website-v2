@@ -30,16 +30,16 @@ export const data = {
             'tags': ['Film Photography'],
             'description': 'As an undergrad portfolio, "Rooted" is a lyrical documentary that aims to convey the atmosphere of my dysfunctional family\'s growth, disrepair, and repair.',
             'projectURL': '',
-            'learnMoreURL': '/',
+            'learnMoreURL': '/photo-portfolio',
         },
-        {
-            'subtitle': 'games',
-            'title': 'Git Time Travel Game',
-            'tags': ['C#', 'Unity'],
-            'description': 'Learning Git is a rite of passage for emerging developers. This game\'s proof-of-concept aims to teach developers how to use Git with an analogy to branching timelines. ',
-            'projectURL': 'https://github.com/nghia-t-nguyen/git-time-travel-game-poc',
-            'learnMoreURL': '',
-        },
+        // {
+        //     'subtitle': 'games',
+        //     'title': 'Git Time Travel Game',
+        //     'tags': ['Procreate', 'C#', 'Unity'],
+        //     'description': 'Learning Git is a rite of passage for emerging developers. This game\'s proof-of-concept aims to teach developers how to use Git with an analogy to branching timelines. ',
+        //     'projectURL': 'https://github.com/nghia-t-nguyen/git-time-travel-game-poc',
+        //     'learnMoreURL': '/git-time-travel',
+        // },
 
         {
             'subtitle': 'portfolio',
@@ -60,10 +60,10 @@ export const data = {
         {
             'subtitle': 'artwork',
             'title': 'Misc Art Gallery',
-            'tags': ['Procreate', 'Photoshop', 'Photography'],
+            'tags': ['Illustration', 'Photography', 'Crafts'],
             'description': 'An art gallery of random things I made along the way. I am a developer by trade and an artist by soul.',
             'projectURL': '',
-            'learnMoreURL': '',
+            'learnMoreURL': '/misc-art-gallery',
         },
 
     ]

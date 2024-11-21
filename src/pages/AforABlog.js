@@ -3,9 +3,7 @@ import './BlogPost.css'
 import AforAMockup from '../assets/images/AforABlog/a-for-aesthetic-mockup.gif'
 import AforACard from '../assets/images/AforABlog/a-for-aesthetic-product-card.gif'
 import AforAFront from '../assets/images/AforABlog/a-for-aesthetic-frontpage.png'
-import GTDashboard from '../assets/images/GTBlog/gastracker_dashboard.png'
-import GTCompareTab from '../assets/images/GTBlog/gastracker_compare_tab.png'
-import Navigation from '../assets/images/GTBlog/navigation.png'
+import FairyGodmoth from '../assets/images/AforABlog/fairygodmoth.jpg'
 
 export default function AforABlog() {
     return (
@@ -36,7 +34,7 @@ export default function AforABlog() {
                 We're beginning with coloring books as our first product, with hopes of growing this business into something bigger.
             </p>
             <h2>My Role</h2>
-            <p>My role for this project is the <strong>front end developer</strong>.
+            <p>My main role for this project is the <strong>front end developer</strong>.
                 However, as this is a small, family-owned business, I have to wear a lot of hats.
                 Consequently, I actively contribute to the development of products and the design of the products, brand, and website.</p>
             <h2>The Design</h2>
@@ -112,11 +110,20 @@ export default function AforABlog() {
                 Because of this, we felt it was the ideal way to jumpstart our journey and connect with our audience.
             </p>
             <h2>Changes to Make</h2>
+            <div className='cont--blog-img'>
+                <img
+                    className="small-width-img"
+                    src={FairyGodmoth}
+                    alt="Sketch of a fairy godmother moth"
+                />
+                <span className='span--image-caption'>My sketch of a proposed mascot: a Fairy Godmoth</span>
+            </div>
             <p>I am currently satisfied with the state of the website. However, there are still some changes that can be anticipated.</p>
             <p><strong>Maintenance:</strong> As the front end developer, it is my job to maintain the website's functionality and appearance.
                 Therefore, I update the website with the latest information and fix any issues that arise to keep the user experience smooth.</p>
             <p><strong>Other projects:</strong> There are some projects that I could take that don't have to do with the storefront.
                 These include ads, analytics, SEO, and creating widgets that users could use for software, such as Notion.</p>
+
         </div>
     )
 }

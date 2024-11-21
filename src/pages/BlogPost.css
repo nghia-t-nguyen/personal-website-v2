@@ -6,6 +6,7 @@
 
 .max-blog-width {
     margin: 0 auto;
+    padding: 1rem;
     max-width: 800px;
 }
 
@@ -28,6 +29,7 @@
 
 .cont--blog-post a {
     color: #98E588;
+    text-decoration: underline;
 }
 
 .cont--blog-img {
@@ -49,6 +51,10 @@
     width: 50%;
 }
 
+.lightbox-img {
+    cursor: pointer;
+}
+
 .span--image-caption {
     margin-top: 2px;
     color: #A4A2FF;
@@ -64,4 +70,9 @@
         width: 75%;
     }
 
+}
+
+
+.gallery-container {
+    width: 100%;
 }

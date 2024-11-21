@@ -10,6 +10,7 @@ export default function AboutMe() {
     return (
         <div ref={ref} className={`cont--about-me ${inView ? 'visible' : ''}`}>
             <div>
+                <h1>About Me</h1>
                 <p>
                     Hi, I'm Johnny (a.k.a. Nghia).
                     I'm a computer science graduate who likes to write, paint, take photos, grow native plants, knit, and crochet.

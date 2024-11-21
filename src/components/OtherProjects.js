@@ -52,7 +52,7 @@ function ProjectCard(props) {
                             {props.projectURL && <ExternalLink url={props.projectURL} />}
                             {props.learnMoreURL &&
                                 <div className='wrapr--learn-more'>
-                                    <SmallerNavButton text='Learn more' />
+                                    <SmallerNavButton text='Learn more' url={props.learnMoreURL} />
                                 </div>
                             }
 

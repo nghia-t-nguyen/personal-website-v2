@@ -1,10 +1,26 @@
 .cont--about-me {
+    margin-top: 1.2rem;
     opacity: 0;
     transition: opacity 1s ease-in;
 }
 
+.cont--about-me h1 {
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 .visible {
     opacity: 1;
+}
+
+.skills-list>li {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .cont--about-me {
+        margin-bottom: 8rem;
+    }
 }
 
 
@@ -13,10 +29,12 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         min-height: 20rem;
-        gap: 2rem;
+        gap: 4rem;
         margin-bottom: 12rem;
     }
 }
+
+
 
 @media screen and (min-width: 850px) {
     .cont--skills-list {
