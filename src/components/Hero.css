@@ -2,7 +2,7 @@
     height: 100vh;
     min-height: 500px;
     width: 100%;
-    margin-bottom: calc(1rem + calc(100vh - min(100dvh, calc(var(--vh, 1vh) * 100))));
+    margin-bottom: calc(1rem + calc(100vh - min(100dvh, 100vh)));
     display: flex;
     align-items: flex-end;
     background-attachment: fixed;
