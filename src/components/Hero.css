@@ -2,7 +2,7 @@
     height: 100vh;
     min-height: 500px;
     width: 100%;
-    margin-bottom: calc(1rem + calc(100vh - min(100dvh, 100vh)));
+    margin-bottom: 1rem;
     display: flex;
     align-items: flex-end;
     background-attachment: fixed;
@@ -13,7 +13,7 @@
 
 .cont--hero-inner {
     margin-left: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: calc(2rem + calc(100vh - min(100dvh, 100vh)));
     width: 100%;
 }
 
