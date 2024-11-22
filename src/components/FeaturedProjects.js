@@ -11,27 +11,32 @@ import gitTimeTravelScreenshot from '../assets/images/GitTTBlog/git-tt-screensho
 
 export default function FeaturedProjects() {
     const [lineHeight, setLineHeight] = useState(0);
-    const [isListening, setIsListing] = useState(true)
+    const [isListening, setIsListing] = useState(true);
 
     useEffect(() => {
+        let animationFrameId;
+
         const handleScroll = () => {
             const scrollY = window.scrollY;
             const viewportHeight = window.innerHeight;
             const container = document.querySelector('.line');
             const containerTop = container.getBoundingClientRect().top + scrollY;
-            const distanceToMiddle = Math.min(1245, (scrollY + viewportHeight * .7 + 45) - containerTop);
+            const distanceToMiddle = Math.min(1245, (scrollY + viewportHeight * 0.7 + 45) - containerTop);
+
+            animationFrameId = requestAnimationFrame(() => {
+                setLineHeight(prev => Math.max(prev, distanceToMiddle));
+            });
+
             if (distanceToMiddle >= 1245) {
-                setIsListing(false)
+                setIsListing(false);
             }
-            setLineHeight(prev => Math.max(prev, distanceToMiddle));
         };
+
         window.addEventListener('scroll', handleScroll);
 
-        // Cleanup on component unmount
         return () => {
-            if (isListening) {
-                window.removeEventListener('scroll', handleScroll);
-            }
+            window.removeEventListener('scroll', handleScroll);
+            cancelAnimationFrame(animationFrameId);
         };
     }, [isListening]);
 
