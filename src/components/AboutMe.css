@@ -17,6 +17,10 @@
     margin-left: 0;
 }
 
+.cont--about-me strong {
+    color: #a4a2ff;
+}
+
 @media screen and (max-width: 700px) {
     .cont--about-me {
         margin-bottom: 8rem;
@@ -200,4 +204,5 @@
 .cont--about-me p {
     margin: 0;
     padding: 0;
+    line-height: 1.4rem;
 }

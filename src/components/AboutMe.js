@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import crystalOrb from '../assets/icons/crystal-orb.png'
 import tarotCardBack from '../assets/images/tarot-card-back.png'
 import photoOfMe from '../assets/images/photoOfMe.png'
+import blueChilis from '../assets/images/blue_chilis.png'
 
 export default function AboutMe() {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.65 });
@@ -12,11 +13,11 @@ export default function AboutMe() {
             <div>
                 <h1>About Me</h1>
                 <p>
-                    Hi, I'm Johnny (a.k.a. Nghia).
-                    I'm a computer science graduate who likes to write, paint, take photos, grow native plants, knit, and crochet.
-                    Basically, I like to make things for fun and make them pretty while I'm at it (and maybe I need to stop picking up so many hobbies).
+                    Hi, I'm <strong>Johnny</strong> (a.k.a. Nghia).
+                    I'm a <strong>computer science graduate</strong> who likes to write, paint, take photos, grow native plants, knit, and crochet.
+                    Basically, I like to make things for fun and make them pretty while I'm at it.
                     In fact, I feel the most like myself when I create things.
-                    I love accessible design and cute things.<br /><br /> Naturally, I became interested in UI/UX design and development.
+                    I love challenging myself with design and making things cute.<br /><br /> Naturally, I became <strong>interested in UI/UX design and development</strong>.
                     In order to complement my passion, I have built skills in the following:
                 </p>
                 <div className='cont--skills-list'>
@@ -38,8 +39,9 @@ export default function AboutMe() {
 
                 <p>
                     <br />
-                    The theme of this portfolio is subtle magic since creating websites is basically magic. Below you can learn about my general experience and projects.
+                    The theme of this portfolio is magic (glowy, eclectic magic to be precise) since creating websites is basically magic. Below you can learn about my general experience and projects.
                 </p>
+                <img src={blueChilis} style={{ marginTop: '0.75rem' }} width='100%' />
             </div>
             <FaceCard inView={inView} />
 
