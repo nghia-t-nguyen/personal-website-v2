@@ -11,19 +11,19 @@ export default function Experience() {
         <div className='wrapper--cont--experience'>
             <div ref={ref} className={`cont--experience ${inView ? 'visible' : ''}`}>
                 <div className='cont--tabs'>
-                    <div className={`cont--tab ${whichExperience === 0 ? 'focused-tab' : ''}`} onClick={() => setWhichExperience(0)}>
+                    <div role='tab' className={`cont--tab ${whichExperience === 0 ? 'focused-tab' : ''}`} onClick={() => setWhichExperience(0)}>
                         <img className={`${whichExperience === 0 ? 'fire-crystal-visible' : 'fire-crystal-hidden'}`} src={FireCrystal} />
                         <span>
                             Software Dev
                         </span>
                     </div>
-                    <div className={`cont--tab ${whichExperience === 1 ? 'focused-tab' : ''}`} onClick={() => setWhichExperience(1)}>
+                    <div role='tab' className={`cont--tab ${whichExperience === 1 ? 'focused-tab' : ''}`} onClick={() => setWhichExperience(1)}>
                         <img className={`${whichExperience === 1 ? 'fire-crystal-visible' : 'fire-crystal-hidden'}`} src={FireCrystal} />
                         <span>
                             Research
                         </span>
                     </div>
-                    <div className={`cont--tab ${whichExperience === 2 ? 'focused-tab' : ''}`} onClick={() => setWhichExperience(2)}>
+                    <div role='tab' className={`cont--tab ${whichExperience === 2 ? 'focused-tab' : ''}`} onClick={() => setWhichExperience(2)}>
                         <img className={`${whichExperience === 2 ? 'fire-crystal-visible' : 'fire-crystal-hidden'}`} src={FireCrystal} />
                         <span>
                             Education

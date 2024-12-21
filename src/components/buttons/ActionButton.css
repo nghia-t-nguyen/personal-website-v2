@@ -16,4 +16,5 @@
 .span--action-button-text {
     color: black;
     font-size: 1rem;
+    user-select: none;
 }
