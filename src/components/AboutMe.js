@@ -15,9 +15,9 @@ export default function AboutMe() {
                 <p>
                     Hi, I'm <strong>Johnny</strong> (a.k.a. Nghia).
                     I'm a <strong>computer science graduate</strong> who likes to write, paint, take photos, grow native plants, knit, and crochet.
-                    Basically, I like to make things for fun and make them pretty while I'm at it.
+                    Basically, I like to make things and make them pretty while I'm at it.
                     In fact, I feel the most like myself when I create things.
-                    I love challenging myself with design and making things cute.<br /><br /> Naturally, I became <strong>interested in UI/UX design and development</strong>.
+                    I love challenging myself with design and making things cute.<br /><br /> Naturally, I became <strong>interested in UI/UX design, development, and human-computer interaction</strong>.
                     In order to complement my passion, I have built skills in the following:
                 </p>
                 <div className='cont--skills-list'>
