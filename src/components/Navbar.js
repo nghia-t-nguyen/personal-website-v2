@@ -1,6 +1,6 @@
 import './Navbar.css'
 import React, { useEffect, useRef } from 'react';
-import resume from '../assets/images/JohnnyNguyen_resume2024.pdf'
+import resume from '../assets/images/JohnnyNguyen_resume2025.pdf'
 
 export default function Navbar(props) {
     const imageRef = useRef();
