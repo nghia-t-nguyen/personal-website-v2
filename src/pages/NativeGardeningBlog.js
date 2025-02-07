@@ -71,7 +71,7 @@ export default function NativeGardeningBlog() {
             <p>My plan is to use a general wildflower mix and see what ends up growing.
                 By seeing what grows one season, I could learn more about what type of plants that the environment around my house supports and iterate based on that knowledge.</p>
             <h3>Other Specialized Flowers</h3>
-            <p>Additionally, there are certain flower species that may serve other purposes, such as aesthetics or keeping the rabbits away (more on that later).
+            <p>Additionally, certain flower species that may serve other purposes, such as aesthetics or keeping the rabbits away (more on that later).
                 Be sure to reach out to your local organizations and businesses to obtain these.
                 I chose Stokes Aster, wild bergamot, and swamp sunflower.</p>
             <h2>Early Results</h2>
