@@ -14,10 +14,10 @@ import { useState } from 'react'
 export default function NativeGardeningBlog() {
     const [imageUrl, setImageUrl] = useState(HouseBase)
     const [houseText, setHouseText] = useState('*Click on a button to reveal an explanation for how each condition influenced the way I garden*')
-    const sunlightText = "The front of my house is south-facing, allowing for a wide-variety of plants in the front. " +
-        "However, I need to keep in mind how the sunlight hits different parts of the ground. Full-sunlight plants should be in the front and partial-sunlight plants should be in the east and west. " +
+    const sunlightText = "The front of my house is south-facing, allowing for a wide-variety of plants. " +
+        "However, I need to keep in mind how the sunlight hits different parts of the ground. Full-sunlight plants should be in the front, and partial-sunlight plants should be in the east and west. " +
         "Additionally, it's important to know where there is the absence of sun, i.e., how does the shade of objects limit the amount of sunlight that the plants get.";
-    const rainText = "The topology of objects, such as the roof, the fences, and the landscape directs water to certain areas more than others. Therefore plants that tolerate a large amount of water should be planted where it pools up. " +
+    const rainText = "The topology of objects, such as the roof, the fences, and the landscape directs water to certain areas more than others. Therefore plants that tolerate a large amount of water should be planted where water pools up. " +
         "For example, my house does not have any gutters. Therefore, the water tends to pool up closer to the house, and I should grow plants that thrive in water-rich environments next to the house."
     const snowText = "Some objects release radiant heat. Since my house is made of brick, it charges up with heat during the day and releases it at night. Additionally, during the winter, the area around the house tends to be warmer. Therefore, plants that are not as frost-tolerant should be planted closer to the house."
 
@@ -76,7 +76,7 @@ export default function NativeGardeningBlog() {
                 I chose Stokes Aster, wild bergamot, and swamp sunflower.</p>
             <h2>Early Results</h2>
             <h3>Wildflower Mix</h3>
-            <p>I saw some native plants the first year. However to my surprise, the rabbits of the neighborhood enjoyed munching on the sprouts as microgreens.
+            <p>I saw some native wildflowers the first year. However to my surprise, the rabbits of the neighborhood enjoyed munching on the sprouts as microgreens.
                 From this experience, I learned more about how to address the rabbit problem, such as protecting plants until they are more mature or choosing plants that are rabbit-proof (e.g., wild bergamot).
             </p>
             <p>
