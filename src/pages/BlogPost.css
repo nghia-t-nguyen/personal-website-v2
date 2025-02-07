@@ -76,3 +76,8 @@
 .gallery-container {
     width: 100%;
 }
+
+.pixelated {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}

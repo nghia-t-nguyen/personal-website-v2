@@ -1,6 +1,14 @@
 export const data = {
     'projectCards': [
         {
+            'subtitle': 'hobby',
+            'title': 'Native Plant House Garden',
+            'tags': ['Garden Design', 'Interactive', 'Ongoing'],
+            'description': 'I picked up native gardening for environmental efforts. Explore how I used environmental factors to inform my design decisions.',
+            'projectURL': '',
+            'learnMoreURL': '/native-gardening',
+        },
+        {
             'subtitle': 'internship',
             'title': 'Twilio Projects and Articles',
             'tags': ['Python', 'JS', 'API', 'Technical Writing'],

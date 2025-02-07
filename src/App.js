@@ -7,6 +7,7 @@ import AforABlog from './pages/AforABlog';
 import PhotoPortfolioBlog from './pages/PhotoPortfolioBlog';
 import GitTimeTravelBlog from './pages/GitTimeTravelBlog';
 import MiscGalleryBlog from './pages/MiscGalleryBlog';
+import NativeGardeningBlog from './pages/NativeGardeningBlog';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/photo-portfolio" element={<PhotoPortfolioBlog />} />
         <Route path="/git-time-travel" element={<GitTimeTravelBlog />} />
         <Route path="/misc-art-gallery" element={<MiscGalleryBlog />} />
+        <Route path="/native-gardening" element={<NativeGardeningBlog />} />
       </Routes>
     </BrowserRouter>
   );
