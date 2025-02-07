@@ -24,7 +24,7 @@ export default function NativeGardeningBlog() {
     return (
         <div className='max-blog-width cont--blog-post'>
             <h1 className='title--blog'>Native Plant House Garden</h1>
-            <Tags tags={['Garden Design', 'Interactive Visualization', 'Ongoing']} />
+            <Tags tags={['Garden Design', 'Interactive', 'Ongoing']} />
             <h2 className='upper-line'>The Problem</h2>
             <p>
                 I've always taken pride in my neighborhood. Unlike most in the South, it's quite walkable, with protective sidewalks and businesses nearby. Adding to the liveliness of my walks, I'm surrounded by green-thumbed neighbors and love seeing the gardens they create.
