@@ -4,7 +4,7 @@ import AforAMockup from '../assets/images/AforABlog/a-for-aesthetic-mockup.gif'
 import AforACard from '../assets/images/AforABlog/a-for-aesthetic-product-card.gif'
 import AforAFront from '../assets/images/AforABlog/a-for-aesthetic-frontpage.png'
 import FairyGodmoth from '../assets/images/AforABlog/fairygodmoth.jpg'
-import FortuneSketch from '../assets/images/AforABlog/fortune_sketch.png'
+import Fortune from '../assets/images/AforABlog/fortune.png'
 
 export default function AforABlog() {
     return (
@@ -116,14 +116,14 @@ export default function AforABlog() {
                 Furthermore, I am working on testing to see if any AI tools are worthwhile to streamline any of the processes or if they can be used to help with customer engagement.
                 I believe that there might be an opportunity to see if open source stable-diffusion models could clean up sketches a little bit more to make the lining process faster.
                 Another idea that is floating around is to match a color palette or image to pick specific colors from a marker set, as that would also help customer engagement.
-                Additionally, I am currently working on a *surprise feature*... on the fortune telling coloring page, which would include fortune telling cards with individualized fortunes.</p>
+                Additionally, I am currently working on a *surprise feature*... on the fortune telling coloring page, which would include fortune telling cards with randomized fortunes.</p>
             <div className='cont--blog-img'>
                 <img
                     className="medium-width-img"
-                    src={FortuneSketch}
-                    alt="Sketch of the fortune telling page"
+                    src={Fortune}
+                    alt="My concept for the fortune telling card."
                 />
-                <span className='span--image-caption'>Sketch of the fortune telling page.</span>
+                <span className='span--image-caption'>My (unfinalized) design for a fortune-telling card paying homage to fortune telling machines.</span>
             </div>
             <h2>Changes to Make</h2>
             <div className='cont--blog-img'>
