@@ -94,15 +94,12 @@ export default function Experience() {
                             </h2>
                             <h3>Tutor @ University of South Carolina</h3>
                             <p>
-                                As a software developer, I get to make magic.
-                                My most recent software development experience is working part time as a front-end developer and cofounder for ✨A for Aesthetic✨, a small, creative, family-owned business:<br /><br />
-                                <strong>Jan 2024 - present (Columbia, SC)</strong>
+                                In addition to my educational role as a developer educator at Twilio, I tutored at the Dodie Anderson Academic Enrichment Center at the UofSC.<br /><br />
+                                <strong>Aug 2020 - May 2022 (Columbia, SC)</strong>
                             </p>
                             <p className='indent'>
-                                <strong>Improved</strong> developer relations by encouraging developers to build through Twilio's blog and products by creating educational technical content. <br />
-                                <strong>Built</strong> 7 applications using Twilio APIs and products and wrote 7 corresponding technical tutorials.<br />
-                                <strong>Boosted</strong> Twilio Blog's web traffic with thousands of page views by writing technical articles.<br />
-                                <strong>Collaborated</strong> with dozens of developers to publish 15 new pieces by reviewing drafts & software applications.
+                                <strong>Helped</strong> over a dozen students reach their full academic potential by tutoring in Computer Science, Math, and Physics.<br />
+                                <strong>Addressed</strong> the specific needs of students by adapting individualized approaches and supplementary materials to communicate complex subjects.
                             </p>
                             <p><br /></p>
                         </div>
