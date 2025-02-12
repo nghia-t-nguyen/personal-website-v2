@@ -35,7 +35,8 @@ export default function AforABlog() {
                 We're beginning with coloring books as our first product, with hopes of growing this business into something bigger.
             </p>
             <h2>My Role</h2>
-            <p>My main role for this project is the <strong>front end developer</strong>.
+            <p>My main role for this project is the <strong>front end developer</strong> and <strong>writer</strong>.
+                I develop the front end for the website as well as write the lore behind the characters.
                 However, as this is a small, family-owned business, I have to wear a lot of hats.
                 Consequently, I actively contribute to the development of products and the design of the products, brand, and website.</p>
             <h2>The Design</h2>
