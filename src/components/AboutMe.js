@@ -39,7 +39,7 @@ export default function AboutMe() {
 
                 <p>
                     <br />
-                    I like to have fun. So this portfolio is magic-themed since creating websites is basically magic. Below you can learn about my general experience and projects.
+                    I like to have fun, so this portfolio is magic-themed since creating websites is basically magic. Below you can learn about my general experience and projects.
                 </p>
                 <img src={blueChilis} style={{ marginTop: '0.75rem' }} width='100%' />
             </div>

@@ -75,7 +75,7 @@ export default function Experience() {
                             <h3>ML Research Assistant @ University of South Carolina</h3>
                             <p>
                                 As a researcher, I get to push the boundaries of knowledge.
-                                My most recent research experience was as a Machine Learning Researcher in materials science at the University of South Carolina. There, I was able to worked on improving and adapting a machine learning model with Python to predict vibrational frequencies between bonds in crystals:<br /><br />
+                                My most recent research experience was as a Machine Learning Researcher in materials science at the University of South Carolina. There, I worked on improving and adapting a machine learning model with Python to predict vibrational frequencies between bonds in crystals:<br /><br />
                                 <strong>May 2021 - Dec 2021 (Columbia, SC)</strong>
                             </p>
                             <p className='indent'>

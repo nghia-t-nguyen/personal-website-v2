@@ -35,7 +35,7 @@ export default function AforABlog() {
                 We're beginning with coloring books as our first product, with hopes of growing this business into something bigger.
             </p>
             <h2>My Role</h2>
-            <p>My main role for this project is the <strong>front end developer</strong> and <strong>writer</strong>.
+            <p>My main role for this project is the <strong>front-end developer</strong> and <strong>writer</strong>.
                 I develop the front end for the website as well as write the lore behind the characters.
                 However, as this is a small, family-owned business, I have to wear a lot of hats.
                 Consequently, I actively contribute to the development of products and the design of the products, brand, and website.</p>
@@ -89,7 +89,7 @@ export default function AforABlog() {
                 <p>
                     <strong>User interface:</strong>  I implement all of the designs for the user interface.
                     I make necessary adjustments to the website, balancing trade-offs between readability, utility, and aesthetics.
-                    By changing the storefront's user interface, we strengthen our brand identity and ensure that our storefront stands out rather than appearing generic.
+                    By customizing the storefront's user interface, we shape our brand identity and ensure that our storefront stands out rather than appearing generic.
                 </p>
                 <div className='cont--blog-img'>
                     <img
@@ -99,7 +99,7 @@ export default function AforABlog() {
                     />
                     <span className='span--image-caption'>Sparkle on hover.</span>
                 </div>
-                <strong>Responsiveness:</strong> As the front end developer, I don't just add sparkles to the website, I also keep the responsiveness of the website in mind.
+                <strong>Responsiveness:</strong> As the front-end developer, I don't just add sparkles to the website, I also keep the responsiveness of the website in mind.
                 When I often begin implementing the front end, I discover that the website's responsiveness doesn't always function well for the user as originally intended in the design.
                 It's my responsibility to identify what works and what needs improvement, ensuring a seamless experience across all devices and screens.
             </p>
@@ -113,10 +113,13 @@ export default function AforABlog() {
             </p>
             <h2>What I am working on right now</h2>
             <p>Some of my work is not directly reflected in the website itself.
-                I've just finished the writing some of the characters backstories, which we are going to pivot into their own aesthetic lines.
+                I've just finished the writing some of the characters backstories, which we are going to pivot into their own aesthetic lines.</p>
+            <p>
                 Furthermore, I am working on testing to see if any AI tools are worthwhile to streamline any of the processes or if they can be used to help with customer engagement.
-                I believe that there might be an opportunity to see if open source stable-diffusion models could clean up sketches a little bit more to make the lining process faster.
-                Another idea that is floating around is to match a color palette or image to pick specific colors from a marker set, as that would also help customer engagement.
+                I believe that there might be an opportunity to see if open source stable-diffusion models could clean up sketches a little bit more to make the lining process faster (as we often pass the art back-and-forth to iterate).
+                Another idea that is floating around is to match a color palette of an image to pick specific colors from a notable marker brands, as that would also help customer engagement as users would have an easier way to choose colors.
+            </p>
+            <p>
                 Additionally, I am currently working on a *surprise feature*... on the fortune telling coloring page, which would include fortune telling cards with randomized fortunes.</p>
             <div className='cont--blog-img'>
                 <img
@@ -136,7 +139,7 @@ export default function AforABlog() {
                 <span className='span--image-caption'>My sketch of a proposed mascot: a Fairy Godmoth</span>
             </div>
             <p>I am currently satisfied with the state of the website. However, there are still some changes that can be anticipated and perhaps a redesign underway.</p>
-            <p><strong>Maintenance:</strong> As the front end developer, it is my job to maintain the website's functionality and appearance.
+            <p><strong>Maintenance:</strong> As the front-end developer, it is my job to maintain the website's functionality and appearance.
                 Therefore, I update the website with the latest information and fix any issues that arise to keep the user experience smooth.</p>
             <p><strong>Other projects:</strong> There are some projects that I could take that don't have to do with the storefront.
                 These include ads, analytics, SEO, and creating widgets that users could use for software, such as Notion.</p>
