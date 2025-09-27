@@ -6,7 +6,7 @@ import photoOfMe from '../assets/images/photoOfMe.png'
 import blueChilis from '../assets/images/blue_chilis.png'
 
 export default function AboutMe() {
-    const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.65 });
+    const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.4 });
 
     return (
         <div ref={ref} className={`cont--about-me ${inView ? 'visible' : ''}`}>
