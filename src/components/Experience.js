@@ -39,15 +39,25 @@ export default function Experience() {
                             <h2>
                                 Software Development
                             </h2>
-                            <h3>PT Front-end Developer @ A for Aesthetic</h3>
+                            <h3>Frontend Developer Intern @ Matmerize</h3>
                             <p>
-                                As a software developer, I get to make magic.
-                                My most recent software development experience is working part time as a front-end developer and cofounder for ✨A for Aesthetic✨, a small, creative, family-owned business:<br /><br />
-                                <strong>Jan 2024 - present (Columbia, SC)</strong>
+                                As a software developer, I get to make magic. By inscribing words into stones and surging a current through them,
+                                I help elemental mages (i.e. material scientists) streamline their workflows at a materials informatics startup:<br /><br />
+                                <strong>Aug 2025 - present (Atlanta, GA)</strong>
                             </p>
                             <p className='indent'>
-                                <strong>Curating</strong> visually engaging frontend interfaces that align with A for Aesthetic's brand vision by translating dynamic and evolving aesthetic trends into user-friendly designs. <br />
-                                <strong>Crafting</strong> immersive, narrative-driven user experiences by writing character narratives, and developing concept art and designs.<br />
+                                <strong>Building</strong> and <strong>maintaining</strong> responsive, user-friendly interfaces with modern frontend frameworks, such as React, Bootstrap, and MUI, focusing on user-facing features, accessibility, and performance improvements
+
+                            </p>
+                            <p><br /></p>
+                            <h3>PT Frontend Developer @ A for Aesthetic</h3>
+                            <p>
+                                I worked part time as a front-end developer and cofounder for ✨A for Aesthetic✨, a small, creative, family-owned business:<br /><br />
+                                <strong>Jan 2024 - Aug 2025 (Columbia, SC)</strong>
+                            </p>
+                            <p className='indent'>
+                                <strong>Curated</strong> visually engaging frontend interfaces that align with A for Aesthetic's brand vision by translating dynamic and evolving aesthetic trends into user-friendly designs. <br />
+                                <strong>Crafted</strong> immersive, narrative-driven user experiences by writing character narratives, and developing concept art and designs.<br />
 
                             </p>
                             <p><br /></p>

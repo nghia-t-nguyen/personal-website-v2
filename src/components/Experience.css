@@ -65,14 +65,14 @@
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .wrapper--cont--experience {
         height: 55rem;
-        margin-bottom: 10rem;
+        margin-bottom: 16rem;
     }
 }
 
 @media screen and (min-width: 901px) {
     .wrapper--cont--experience {
         height: 48rem;
-        margin-bottom: 10rem;
+        margin-bottom: 16rem;
     }
 
 }
