@@ -132,31 +132,6 @@
     opacity: 0;
 }
 
-/* See index.html
-*/
-/* @supports (animation-timeline: view()) {
-    .cont--image-column {
-        transform: translateY(-220px);
-        animation: parallax linear;
-        animation-timeline: view();
-    }
-
-    @keyframes parallax {
-        to {
-            transform: translateY(220px);
-        }
-    }
-
-    .embed--image-1 {
-        margin-top: 9rem !important;
-    }
-
-    .embed--image-3 {
-        margin-top: 0 !important;
-    }
-} */
-
-
 
 @media screen and (min-width: 800px) {
     .cont--featured-projects-column {
@@ -277,7 +252,7 @@
         aspect-ratio: 16 / 9;
         border-radius: 4px;
         border: 1px solid #10244B;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
