@@ -6,8 +6,9 @@ import NavButton from './buttons/NavButton'
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import gasTrackerScreenshot from '../assets/images/gas-tracker-screenshot.png'
+import canopyWalkScreenshot from '../assets/images/canopy_walk.png'
 import aForAScreenshot from '../assets/images/a-for-aesthetic-screenshot.png'
-import gitTimeTravelScreenshot from '../assets/images/GitTTBlog/git-tt-screenshot-featured.png'
+import R1 from '../assets/images/R1.pdf'
 
 export default function FeaturedProjects() {
     const [lineHeight, setLineHeight] = useState(0);
@@ -56,7 +57,7 @@ export default function FeaturedProjects() {
                         <span className='span-topline'>featured project #1</span>
                         <div className='cont--featured-projects-title'>
                             <div className='dash'></div>
-                            <h2 class>Gas Tracker</h2>
+                            <h2>Gas Tracker</h2>
                         </div>
                         <div className='cont--featured-project-tags'>
                             <Tags tags={['ReactJS', 'HTML', 'CSS', 'JS', 'Firebase', 'Cloud Firestore', 'AWS', 'Node.js', 'BitQuery']} />
@@ -78,7 +79,29 @@ export default function FeaturedProjects() {
                         <span className='span-topline'>featured project #2</span>
                         <div className='cont--featured-projects-title'>
                             <div className='dash'></div>
-                            <h2 class>A for Aesthetic</h2>
+                            <h2>Canopy Walk (Ongoing)</h2>
+                        </div>
+                        <div className='cont--featured-project-tags'>
+                            <Tags tags={['UX Research', 'UX/UI Design', 'Interactive', 'Unity', 'Prototyping']} />
+                        </div>
+
+                    </div>
+                    <Description text='Canopy Walk is a new exhibit featured in the Georgia Aquarium. In this project, I researched potential interactives that will enhance this exhibit.' />
+                    <div className='cont--two-thirds-width'>
+                        <div className='cont--featured-projects-links'>
+                            <ExternalLink url={R1} />
+                            <NavButton text='Learn more' url='/canopy-walk' />
+                        </div>
+                    </div>
+                    <div className='smaller-screenshot' style={{ backgroundImage: `url(${canopyWalkScreenshot})` }}></div>
+                </div>
+
+                <div ref={ref3} className={`cont--featured-project-3 cont--featured-project ${inView3 ? 'visible' : 'hidden'}`}>
+                    <div className='cont--two-thirds-width'>
+                        <span className='span-topline'>featured project #3</span>
+                        <div className='cont--featured-projects-title'>
+                            <div className='dash'></div>
+                            <h2>A for Aesthetic</h2>
                         </div>
                         <div className='cont--featured-project-tags'>
                             <Tags tags={['Shopify', 'Liquid Templating', 'HTML', 'CSS', 'Figma']} />
@@ -95,28 +118,6 @@ export default function FeaturedProjects() {
                     <div className='smaller-screenshot' style={{ backgroundImage: `url(${aForAScreenshot})` }}></div>
                 </div>
 
-                <div ref={ref3} className={`cont--featured-project-3 cont--featured-project ${inView3 ? 'visible' : 'hidden'}`}>
-                    <div className='cont--two-thirds-width'>
-                        <span className='span-topline'>featured project #3</span>
-                        <div className='cont--featured-projects-title'>
-                            <div className='dash'></div>
-                            <h2 class>Git Time Travel Game</h2>
-                        </div>
-                        <div className='cont--featured-project-tags'>
-                            <Tags tags={['Procreate', 'C#', 'Unity']} />
-                        </div>
-
-                    </div>
-                    <Description text="Learning Git is a rite of passage for emerging developers. This game's proof-of-concept aims to teach developers how to use Git with an analogy to branching timelines." />
-                    <div className='cont--two-thirds-width'>
-                        <div className='cont--featured-projects-links'>
-                            <ExternalLink url='https://github.com/nghia-t-nguyen/git-time-travel-game-poc' />
-                            <NavButton text='Learn more' url='/git-time-travel' />
-                        </div>
-                    </div>
-                    <div className='smaller-screenshot' style={{ backgroundImage: `url(${gitTimeTravelScreenshot})` }}></div>
-                </div>
-
             </div>
             <div className='cont--image-column'>
                 <div className={`cont--image ${inView1 ? 'visible' : 'hidden-left'}`}>
@@ -128,13 +129,13 @@ export default function FeaturedProjects() {
                 <div className={`cont--image ${inView2 ? 'visible' : 'hidden-left'}`}>
                     <div className='embed embed--image-2'>
                         <div className='filter--embed-image'></div>
-                        <div className='cont--embed-image' style={{ backgroundImage: `url(${aForAScreenshot})` }}></div>
+                        <div className='cont--embed-image' style={{ backgroundImage: `url(${canopyWalkScreenshot})` }}></div>
                     </div>
                 </div>
                 <div className={`cont--image ${inView3 ? 'visible' : 'hidden-left'}`}>
                     <div className='embed embed--image-3'>
                         <div className='filter--embed-image'></div>
-                        <div className='cont--embed-image' style={{ backgroundImage: `url(${gitTimeTravelScreenshot})` }}></div>
+                        <div className='cont--embed-image' style={{ backgroundImage: `url(${aForAScreenshot})` }}></div>
                     </div>
                 </div>
             </div>

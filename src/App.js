@@ -8,6 +8,7 @@ import PhotoPortfolioBlog from './pages/PhotoPortfolioBlog';
 import GitTimeTravelBlog from './pages/GitTimeTravelBlog';
 import MiscGalleryBlog from './pages/MiscGalleryBlog';
 import NativeGardeningBlog from './pages/NativeGardeningBlog';
+import CanopyWalkBlog from './pages/CanopyWalkBlog';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/git-time-travel" element={<GitTimeTravelBlog />} />
         <Route path="/misc-art-gallery" element={<MiscGalleryBlog />} />
         <Route path="/native-gardening" element={<NativeGardeningBlog />} />
+        <Route path="/canopy-walk" element={<CanopyWalkBlog/>} />
       </Routes>
     </BrowserRouter>
   );

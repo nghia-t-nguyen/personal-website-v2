@@ -1,6 +1,14 @@
 export const data = {
     'projectCards': [
         {
+            'subtitle': 'solo project',
+            'title': 'Git Time Travel Game Proof of Concept',
+            'tags': ['Procreate', 'C#', 'Unity'],
+            'description': 'Learning Git is a rite of passage for emerging developers. This game\'s proof of concept aims to teach developers how to use Git with an analogy to branching timelines.',
+            'projectURL': 'https://github.com/nghia-t-nguyen/git-time-travel-game-poc',
+            'learnMoreURL': '/git-time-travel',
+        },
+        {
             'subtitle': 'hobby',
             'title': 'Native Plant House Garden',
             'tags': ['Garden Design', 'Interactive', 'Ongoing'],
@@ -40,15 +48,6 @@ export const data = {
             'projectURL': '',
             'learnMoreURL': '/photo-portfolio',
         },
-        // {
-        //     'subtitle': 'games',
-        //     'title': 'Git Time Travel Game',
-        //     'tags': ['Procreate', 'C#', 'Unity'],
-        //     'description': 'Learning Git is a rite of passage for emerging developers. This game\'s proof-of-concept aims to teach developers how to use Git with an analogy to branching timelines. ',
-        //     'projectURL': 'https://github.com/nghia-t-nguyen/git-time-travel-game-poc',
-        //     'learnMoreURL': '/git-time-travel',
-        // },
-
         {
             'subtitle': 'portfolio',
             'title': 'Personal Website 1.0',
@@ -57,14 +56,14 @@ export const data = {
             'projectURL': 'https://nghia-t-nguyen.netlify.app/',
             'learnMoreURL': '',
         },
-        {
-            'subtitle': 'portfolio',
-            'title': 'Personal Website 0.0',
-            'tags': ['HTML', 'CSS', 'JS'],
-            'description': 'My very first personal website that draws upon risograph printing for inspiration.',
-            'projectURL': 'https://nghia-t-nguyen.github.io/',
-            'learnMoreURL': '',
-        },
+        // {
+        //     'subtitle': 'portfolio',
+        //     'title': 'Personal Website 0.0',
+        //     'tags': ['HTML', 'CSS', 'JS'],
+        //     'description': 'My very first personal website that draws upon risograph printing for inspiration.',
+        //     'projectURL': 'https://nghia-t-nguyen.github.io/',
+        //     'learnMoreURL': '',
+        // },
         {
             'subtitle': 'artwork',
             'title': 'Misc Art Gallery',
