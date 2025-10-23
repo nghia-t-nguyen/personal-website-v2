@@ -128,7 +128,7 @@ export default function FeaturedProjects() {
                 </div>
                 <div className={`cont--image ${inView2 ? 'visible' : 'hidden-left'}`}>
                     <div className='embed embed--image-2'>
-                        <div className='filter--embed-image'></div>
+                        <div className='filter--embed-image less-blurred'></div>
                         <div className='cont--embed-image' style={{ backgroundImage: `url(${canopyWalkScreenshot})` }}></div>
                     </div>
                 </div>
