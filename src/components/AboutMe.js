@@ -14,7 +14,7 @@ export default function AboutMe() {
                 <h1>About Me</h1>
                 <p>
                     Hi, I'm <strong>Johnny</strong> (a.k.a. Nghia).
-                    I'm a <strong>computer science graduate</strong> who likes to write, paint, take photos, grow native plants, knit, and crochet.
+                    I'm a <strong>master's student in Human-Computer Interaction</strong> at Georgia Tech who likes to write, paint, take photos, grow native plants, knit, and crochet.
                     Basically, I like to make things and make them pretty while I'm at it.
                     In fact, I feel the most like myself when I create things.
                     I love challenging myself with design and making things cute.<br /><br /> Naturally, I became <strong>interested in UI/UX design, development, and human-computer interaction</strong>.
